@@ -59,3 +59,6 @@ Quando usamos o node nos projetos(react, vue, etc) ele cria o arquivo gingante c
 NA RAIZ DO PROJETO CRIAMOS O ARQUIVO: .gitignore
 ESCREVEMOS DENTRO DESSE ARQUIVO: node_modules
 PRONTO. ELE NÃO IRÁ PARA O GITHUB
+git add .
+git commit -m......
+git push
