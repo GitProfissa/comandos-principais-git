@@ -34,3 +34,28 @@ TOKEN PARA ESSA CONTA - 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
 Pegando as alterações que outra pessoa fez: git pull
 
 criar nova branch a partir da branch que eu estou: git checkout -b feat/login-page
+adicionamos as alterações na nova branch git add .
+depois o commit: commit -m.......
+agora damos o push: git push -u origin feat/login-page (agora mudou aqui)
+
+AGORA QUE TEMOS 2 BRANCHS E AS 2 TEM COMMIT TEMOS QUE FAZER 1 PULL REQUEST
+NO GITHUB TEM ELE NO MENU 
+ENSINA EM 24:20 DO VÍDEO DESSE CURSO: https://www.youtube.com/watch?v=ptGfZkDdrUY
+
+voltando para a branch main: git checkout main
+EM SEGUIDA: git pull  PARA ATUALIZAR A main PERANTE A OUTRA BRANCH
+
+vendo quantas branchs existem: git branch
+
+DELETANDO BRANCH: git branch -d feat/login-page
+(ESSE COMANDO SÓ APAGA A BRANCH NO VSCODE, LOCALMENTE. LÁ NO GITHUB ELA PERMANECE)
+
+DELETANDO ELA LÁ NO GITHUB TAMBÉM: depois do comando acima damos:
+git push --delete origin feat/login-page
+
+
+O ARQUIVO GITIGNORE
+Quando usamos o node nos projetos(react, vue, etc) ele cria o arquivo gingante chamado de node_modules (pasta) essa pasta não precisamos subir ela no projeto. para isso criamos o git ignore.
+NA RAIZ DO PROJETO CRIAMOS O ARQUIVO: .gitignore
+ESCREVEMOS DENTRO DESSE ARQUIVO: node_modules
+PRONTO. ELE NÃO IRÁ PARA O GITHUB

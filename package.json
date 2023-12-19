@@ -1,0 +1,11 @@
+{
+  "name": "GitDezembroYoutube2023",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GitProfissa/comandos-principais-git.git",
+  "author": "GitProfissa <granaonlinepit@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
