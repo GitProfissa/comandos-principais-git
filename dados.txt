@@ -1,0 +1,12 @@
+adicionando apenas 1 arquivo específico: git add index.html
+
+adicionando apenas 1 pasta: git add assets/
+
+desfazendo essa adição de arquivo: git rm --cached index.html
+
+adicionando todos os arquivos: git add .
+
+removendo todos os arquivos que já foram trackeados: git rm --cached -r .
+
+
+fazendo o commit: git commit -m "adding the README file"
