@@ -1,3 +1,10 @@
+
+ANTES DE COMEÇAR TEMOS QUE CONFIGURAR O USO GLOBAL PARA ESSE CASO:
+git config --global user.name "GitProfissa"
+git config --global user.email "granaonlinepit@gmail.com"
+
+
+
 adicionando apenas 1 arquivo específico: git add index.html
 
 adicionando apenas 1 pasta: git add assets/
@@ -10,3 +17,15 @@ removendo todos os arquivos que já foram trackeados: git rm --cached -r .
 
 
 fazendo o commit: git commit -m "adding the README file"
+
+vendo quantos commits já fiz: git log
+
+Agora jogando nossos arquivos lá no github:
+A - git branch -M main
+B - git remote add origin https://github.com/GitProfissa/comandos-principais-git.git  (esse comando está no repositorio que criamos)
+C - git push -u origin main
+
+
+
+RESOLVENDO ERRO 403: https://www.youtube.com/watch?v=j_Z4PopPt_o
+TOKEN PARA ESSA CONTA - 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
